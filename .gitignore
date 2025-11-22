@@ -1,0 +1,58 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+.env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp
+*.log
+*.tmp
+*.csv~
+
+# Model artifacts
+*.joblib
+*.model
+
+# C++ build outputs
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+build/
+
+# Temporary/editor files
+*~
+*.swp
+.DS_Store
+.idea/
+.vscode/
+
+# Data artifacts (ignore large CSV except curated ones)
+*.csv
+!ML_Model/fft_performance_results.csv
+!ML_Model/fft_clean_extradata.csv
+!ML_Model/verify_extra_data.csv
+!ML_Model/extra_data.csv
+
+# Archive bundles
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore generated manual; keep README
+USER_MANUAL.md
+!README.md
+ML_Model/random_forest_fft_model.pkl
